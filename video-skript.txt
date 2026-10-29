@@ -1,0 +1,11 @@
+30 Sekunden / 6 Szenen / ohne Sprecher
+
+0-5: Deine Antwort. Nur leichter. E-Mail-Helfer aus Lilias digitaler Werkstatt.
+5-10: Geöffnete Nachricht im neuen Outlook unter Windows einlesen.
+10-15: Antwort diktieren und Ansprache, Ton und Aufbau wählen.
+15-20: Vertrauliche Stellen markieren und Daten vor der OpenAI-Anfrage freigeben.
+20-25: Platzhalter lokal zurücksetzen, Entwurf mit Signatur prüfen und kopieren.
+25-30: Interesse? Persönliche Vorführung bei Lilia anfragen.
+
+Alle gezeigten Inhalte sind erfunden. Die Oberfläche ist illustrativ.
+Keine vollständige Anonymisierung behaupten. OpenAI-Verarbeitung nach Freigabe nennen.
