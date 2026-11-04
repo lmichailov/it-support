@@ -27,3 +27,16 @@ Keinen API-Key, keine .env, private Lizenzdateien, Kundendaten oder Python-Ausli
 
 `tools/render_demo.py` ist ein Entwicklungshelfer. Er benötigt eine lokale Python-Umgebung mit Pillow, ffmpeg und den Windows-Schriften.
 Die HTML-Seite selbst benötigt diese Werkzeuge nicht. `video-skript.txt` dokumentiert die Vorführung.
+
+
+## Zwei Produkt-Tabs
+
+- **Outlook Assistant**: vorhandene E-Mail-Demo und Produktinformationen.
+- **Bewerbungscoach**: eingebettete, eigenständige Demo unter `bewerbungscoach/`.
+- Direktlinks: `#outlook` und `#bewerbungscoach`.
+- Umschalten funktioniert per Klick und Tastatur (Pfeile, Pos1, Ende).
+- Nur fiktive Bewerbungsdaten; keine privaten Programmdateien, API-Schlüssel oder Zeugnisse.
+- Der private BewerbungsCoach-Quellcode liegt in seinem eigenen Repository.
+
+Die zusätzlichen Dateien und die neue `index.html` sind lokal vorbereitet.
+Ein Push des Website-Branches würde die öffentliche Website aktualisieren.

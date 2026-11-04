@@ -1,0 +1,29 @@
+Mara Beispiel
+KI- & Automatisierungscoach
+E-Mail: mara.beispiel@example.com
+Telefon: ausgeblendet
+Wohnort: Dortmund
+Profil
+Data Analystin und IT-Trainerin mit Erfahrung in Python, Datenaufbereitung und verständlicher Wis-
+sensvermittlung.
+Berufserfahrung
+IT-Trainerin – Beispielakademie (fiktiv)
+2023 – 2026
+Python-Kurse mit praktischen Übungen; verständliche Erklärung technischer Konzepte.
+Data Analystin – Musterwerk Digital (fiktiv)
+2019 – 2023
+Datenaufbereitung mit Python und SQL; Zusammenarbeit an REST-Schnittstellen.
+Eigenes KI-Projekt
+In einem eigenen KI-Projekt entwickelte ich für einen ehrenamtlichen Verein einen Assistenten, der
+häufige Fragen anhand eines Handbuchs beantwortet. Dabei sammelte ich praktische Erfahrung
+darin, Informationen für eine KI-Anwendung aufzubereiten und die Antworten auf ihre Verständlichkeit
+zu prüfen.
+Studium
+B.Sc. Wirtschaftsinformatik – Hochschule Beispielstadt (fiktiv)
+2015 – 2019
+Kenntnisse und Interessen
+Python, SQL, REST APIs
+Deutsch (Muttersprache), Englisch (B2)
+Führerschein Klasse B
+Wandern und Fotografie
+Fiktives Muster. Alle Profil- und Firmendaten sind erfunden.

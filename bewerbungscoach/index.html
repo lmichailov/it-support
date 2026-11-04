@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Erlebe an einem fiktiven Beispiel, wie aus deiner Erfahrung passende Bewerbungsunterlagen werden.">
+  <title>BewerbungsCoach · Eine Bewerbung, die nach dir klingt</title>
+  <link rel="stylesheet" href="assets/demo.css">
+  <script src="assets/demo.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#">BewerbungsCoach<span> / Beispiel</span></a><span class="pill">Fiktive Daten · ohne Anmeldung</span></header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">DEIN PROFIL. DEINE WUNSCHSTELLE.</p>
+      <h1>Deine Bewerbung.<br>Mit deinen Worten.</h1>
+      <p class="intro">Erfahrung erzählen. Stelle abgleichen. Lebenslauf und Anschreiben verfeinern.</p>
+      <a class="button primary" href="#beispiel">Beispiel ausprobieren <span aria-hidden="true">↗</span></a>
+      <p class="small">Fiktives Profil. Vorbereitete Texte. Ohne Anmeldung.</p>
+    </section>
+
+    <section id="beispiel" class="demo" aria-label="Interaktives Bewerbungsbeispiel">
+      <div class="demo-top"><div><p class="eyebrow">EIN BEISPIEL. DREI SCHRITTE.</p><h2>So sieht deine Bewerbung aus.</h2></div><button id="reset" class="text-button" type="button">Beispiel zurücksetzen ↺</button></div>
+      <nav class="steps" aria-label="Beispielschritte">
+        <button type="button" data-step="profile" aria-pressed="true"><span>01</span> Erfahrung mitbringen</button>
+        <button type="button" data-step="matching" aria-pressed="false"><span>02</span> Passendes erkennen</button>
+        <button type="button" data-step="documents" aria-pressed="false"><span>03</span> Unterlagen verfeinern</button>
+      </nav>
+
+      <section id="profile" class="panel">
+        <div class="split">
+          <div><span class="tag">DAS BEISPIELPROFIL</span><h3>Mara Beispiel<br>KI- &amp; Automatisierungscoach</h3><p>Python, Datenanalyse und Lehre – passend zur neuen Stelle aufbereitet.</p><button class="button primary" type="button" data-go="matching">Profil mit der Stelle vergleichen →</button></div>
+          <article class="profile-card"><div class="person"><img src="assets/profil-stock.jpg" width="104" height="136" alt="Stockfoto als Platzhalter für das fiktive Beispielprofil"><div><span class="tag">FIKTIVES PROFIL</span><h3>Mara Beispiel</h3><p>Data Analystin &amp; IT-Trainerin</p><p class="small">Dortmund · Führerschein Klasse B<br>Hobby: Wandern &amp; Fotografie</p></div></div><dl><div><dt>Kontakt</dt><dd>mara.beispiel@example.com<br>Telefon ausgeblendet</dd></div><div><dt>2023–2026</dt><dd>IT-Trainerin · Beispielakademie<br>Python-Kurse und verständliche Wissensvermittlung</dd></div><div><dt>2019–2023</dt><dd>Data Analystin · Musterwerk Digital<br>Python, Datenaufbereitung und REST-Schnittstellen</dd></div><div><dt>Studium</dt><dd>B.Sc. Wirtschaftsinformatik<br>Hochschule Beispielstadt</dd></div></dl><p class="small">Name, Lebenslauf und Unternehmen sind frei erfunden. Die abgebildete Person ist ein Stockfoto und keine Kundin.</p></article>
+        </div>
+      </section>
+
+      <section id="matching" class="panel" hidden>
+        <div class="section-heading"><span class="tag">DIE FIKTIVE WUNSCHSTELLE</span><h3>KI- &amp; Automatisierungscoach<br><span class="muted">bei Nordlicht Lernwerk</span></h3><p>Gesucht: Python, Wissensvermittlung und eigene KI-Projekte.</p></div>
+        <div class="match-list">
+          <article><span class="match-status">✓ Aus dem Profil</span><h4>Python verständlich vermitteln</h4><p>Vorhanden: Mara hat Python-Kurse an der Beispielakademie unterrichtet.</p></article>
+          <article><span class="match-status">✓ Aus dem Profil</span><h4>Schnittstellen verstehen</h4><p>Vorhanden: Bei Musterwerk Digital arbeitete Mara mit REST-Schnittstellen.</p></article>
+          <article class="opportunity"><span class="match-status">+ Hier könnte mehr von dir stehen</span><h4>Eigene KI-Anwendungen</h4><p>Noch offen: ein konkretes KI-Projekt.</p><button type="button" class="text-button" id="matching-add">Beispielergänzung ansehen →</button></article>
+        </div>
+        <p class="small">Vorbereiteter Beispielabgleich. Fehlende Angaben kannst du ergänzen.</p><button class="button primary" type="button" data-go="documents">Unterlagen ansehen →</button>
+      </section>
+
+      <section id="documents" class="panel" hidden>
+        <div class="documents-header"><div><span class="tag">DEINE UNTERLAGEN</span><h3>Klar gegliedert. Persönlich formuliert.</h3></div><span id="version-badge" class="pill" role="status">Beispiel · Ausgangsfassung</span></div>
+        <div class="document-tabs" aria-label="Dokument auswählen"><button type="button" data-doc="letter" aria-pressed="true">Anschreiben</button><button type="button" data-doc="cv" aria-pressed="false">Lebenslauf</button></div>
+        <div class="layout-options" aria-label="Textlayout wählen"><button type="button" data-layout="design" aria-pressed="true">Vorlage mit Icons</button><button type="button" data-layout="ats" aria-pressed="false">ATS-Textlayout</button><span class="ats-badge">Einspaltig · Klarer Text</span></div><div class="document-layout">
+          <article id="document-paper" class="paper" aria-label="Beispielunterlage"><div class="paper-top"><div><h3>Mara Beispiel</h3><p>KI- &amp; Automatisierungscoach</p><div class="contact contact-icons"><span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#mail"></use></svg>mara.beispiel@example.com</span><span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#phone"></use></svg>Telefon ausgeblendet</span><span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#location"></use></svg>Dortmund</span><span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#language"></use></svg>Deutsch · Englisch</span><span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#car"></use></svg>Führerschein Klasse B</span><span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#hobby"></use></svg>Wandern &amp; Fotografie</span></div></div><img id="paper-photo" src="assets/profil-stock.jpg" width="80" height="106" alt="Stockfoto des fiktiven Beispielprofils" hidden></div><div id="document-body"></div><p class="sample-stamp">FIKTIVES MUSTER · KEINE ECHTE BEWERBUNG</p></article>
+          <aside class="refine"><h4>Fehlt noch etwas?</h4><p>Diktiere einfach deine Ergänzung.</p><button type="button" class="button primary" id="open-editor">Zum Anschreiben etwas ergänzen</button><details><summary>Ideen, was du noch erzählen könntest</summary><ul><li>Ein eigenes KI-Projekt</li><li>Ein Beispiel aus einem Kurs</li><li>Wie du im Team arbeitest</li></ul><p class="small">Hilfestellungen, keine Pflichtfragen.</p></details><a id="pdf-link" class="download-link" href="downloads/Anschreiben_Mara_Beispiel.pdf" download>Beispiel als PDF herunterladen ↗</a><a id="text-link" class="download-link" href="downloads/Anschreiben_Mara_Beispiel_ATS.txt" download hidden>Als Text herunterladen ↗</a><p id="ats-info" class="small" hidden>ATS-konformes Textlayout: einspaltig, ohne Foto oder Tabellen. Keine universelle ATS-Garantie.</p></aside>
+        </div>
+      </section>
+      <p id="demo-status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="promise compact-promise"><div><h3>Erzählen.</h3><p>Mit deinen Worten.</p></div><div><h3>Prüfen.</h3><p>Du behältst das letzte Wort.</p></div><div><h3>Bewerben.</h3><p>Als PDF oder ATS-Textlayout.</p></div></section>
+    <footer><p>Fiktive Ablaufdemo, keine freie KI-Bearbeitung. Spracheingabe über den Sprachdienst deines Browsers, falls unterstützt.</p><p>Stockfoto: <a href="https://www.pexels.com/photo/portrait-of-a-woman-at-the-desk-in-an-office-12903198/" target="_blank" rel="noopener noreferrer">Mizuno K / Pexels</a> · <a href="https://www.pexels.com/license/" target="_blank" rel="noopener noreferrer">Bildlizenz</a>. Das Foto zeigt keine Nutzerin des Angebots.</p></footer>
+  </main>
+
+  <dialog id="editor"><form method="dialog"><div class="dialog-header"><div><span class="tag">NUR ERGÄNZEN, WAS NOCH FEHLT</span><h2 id="editor-title">Was soll ins Anschreiben?</h2></div><button type="submit" class="close" aria-label="Schließen">×</button></div></form>
+    <p>So könnte Mara es erzählen:</p><blockquote id="sample-quote"></blockquote>
+    <div class="editor-actions"><button type="button" class="button primary" id="play-example">Diktat-Beispiel einsetzen</button><button type="button" class="button secondary" id="dictate">Selbst diktieren</button><button type="button" class="button secondary" id="stop-dictation" hidden>Aufnahme beenden</button></div>
+    <p id="voice-status" class="small" role="status" aria-live="polite"></p>
+    <label for="instruction">Dein Änderungswunsch</label><textarea id="instruction" rows="4" placeholder="Zum Beispiel: Ergänze mein KI-Projekt im zweiten Absatz."></textarea>
+    <p class="small">Vorbereiteter Beispielvorschlag. Eigene Diktate bleiben eine ungespeicherte Notiz.</p>
+    <button type="button" class="button primary" id="suggest">Beispielvorschlag ansehen</button>
+    <section id="proposal" hidden><h3>So könnte die Ergänzung aussehen</h3><p id="proposal-text"></p><div id="free-note" hidden><p class="small">Deine eigene Notiz – in dieser Demo nicht automatisch verarbeitet:</p><p id="note-text"></p></div><button type="button" class="button primary" id="accept">Beispiel übernehmen</button><button type="button" class="button secondary" id="discard">Verwerfen</button></section>
+  </dialog>
+</body>
+</html>
