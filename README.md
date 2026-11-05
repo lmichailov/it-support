@@ -29,7 +29,7 @@ Keinen API-Key, keine .env, private Lizenzdateien, Kundendaten oder Python-Ausli
 Die HTML-Seite selbst benötigt diese Werkzeuge nicht. `video-skript.txt` dokumentiert die Vorführung.
 
 
-## Vier Produkt-Tabs
+## Fuenf Produkt-Tabs
 
 - **Outlook Assistant**: vorhandene E-Mail-Demo und Produktinformationen.
 - **Bewerbungscoach**: eingebettete, eigenständige Demo unter `bewerbungscoach/`.
@@ -58,3 +58,21 @@ Keine privaten App-Quelldateien, Installationspakete, Konfigurationen mit Zugang
 HTML, CSS und JavaScript der öffentlich ausgelieferten Browserdemos sind für Besucher einsehbar. `tools/render_demo.py` ist ausschließlich der öffentliche Entwicklungshelfer für die fiktiven Demo-Videos, kein privater Anwendungsreader.
 
 Vor jedem Commit die ausgewählten Dateien und den Diff prüfen. Nur ausdrücklich benannte Website-Dateien mit `git add -- ...` aufnehmen.
+
+
+## Support & Daten
+
+- Fuenfter Produkt-Tab; Direktlink `#support`, Beispielbereich `#support-beispiel`.
+- Drei Browserbeispiele: feste FAQ-Antworten, simulierte Kunden-/Betreiberansicht
+  und sechs fiktive Tabellenzeilen mit Fehlwertpruefung, Kennzahlen, Balken- und Scatterplot.
+- CSV-Download enthaelt ausschliesslich die sechs erfundenen Beispielzeilen.
+- Keine Anmeldung, keine eigenen Uploads, keine KI, keine App-Verbindung und keine
+  Speicherung in Local Storage oder Session Storage. Es wird nur der Arbeitsspeicher
+  der Seite verwendet, bis sie geschlossen oder neu geladen wird.
+- Die Rollenauswahl ist eine Simulation, kein Zugriffsschutz. Es werden keine
+  Demo-Admin-Passwoerter oder privaten Bestell-/FAQ-Dateien veroeffentlicht.
+- Der separate Python-Prototyp bleibt im privaten Projekt `ticket_system`.
+  Eine oeffentliche App-Adresse ist noch nicht eingerichtet; die Landingpage
+  verlinkt deshalb eine persoenliche Vorfuehrung per vorhandener Kontaktadresse.
+- HTML/CSS/JavaScript der Browserdemo sind oeffentlicher Website-Code.
+- Bestehender GitHub-Pages-Ablauf bleibt erhalten. Keine neue Hosting-Plattform.
