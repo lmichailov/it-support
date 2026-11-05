@@ -29,14 +29,22 @@ Keinen API-Key, keine .env, private Lizenzdateien, Kundendaten oder Python-Ausli
 Die HTML-Seite selbst benötigt diese Werkzeuge nicht. `video-skript.txt` dokumentiert die Vorführung.
 
 
-## Zwei Produkt-Tabs
+## Vier Produkt-Tabs
 
 - **Outlook Assistant**: vorhandene E-Mail-Demo und Produktinformationen.
 - **Bewerbungscoach**: eingebettete, eigenständige Demo unter `bewerbungscoach/`.
-- Direktlinks: `#outlook` und `#bewerbungscoach`.
+- **Nachrichten · Team**: Konzeptdemo mit Meldung/Bildillustration und Projektübergabe.
+- **Nachrichten · Privat**: Konzeptdemo mit Gruppenabsprache und Antwortidee.
+- Direktlinks: `#outlook`, `#bewerbungscoach`, `#team` und `#privat`.
+- Beispiel-Anker: `#team-beispiel` und `#privat-beispiel` öffnen auch das passende Tab.
+- Die Nachrichten-Demos verwenden vorbereitete, fiktive Ergebnisse. Keine KI-Anfragen, Uploads, Anmeldung oder Browser-Speicherung; die Namensmaskierung ersetzt ausschließlich Demonstrationsnamen.
+- Teamkonten, allgemeiner Nachrichtenimport und Fotoauswertung sind geplante Funktionen, keine Funktionen dieser Landingpage.
 - Umschalten funktioniert per Klick und Tastatur (Pfeile, Pos1, Ende).
 - Nur fiktive Bewerbungsdaten; keine privaten Programmdateien, API-Schlüssel oder Zeugnisse.
 - Der private BewerbungsCoach-Quellcode liegt in seinem eigenen Repository.
 
-Die zusätzlichen Dateien und die neue `index.html` sind lokal vorbereitet.
-Ein Push des Website-Branches würde die öffentliche Website aktualisieren.
+Änderungen werden im bestehenden Website-Repository gepflegt.
+Ein Push auf `website-draft` aktualisiert die öffentliche Website über GitHub Pages.
+
+
+Die Erweiterung um Team und Privat wurde im Browser mit vier Tabs, Pfeiltasten/Pos1/Ende, Direktlinks, Szenariowechsel, Namensmaskierung und Zwischenablage geprüft. Die vorhandene Outlook-Markierungsdemo und der eingebettete Bewerbungscoach wurden ebenfalls geprüft. Mobilansichten: 375 und 320 Pixel ohne horizontalen Überlauf.
