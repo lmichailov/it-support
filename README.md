@@ -48,3 +48,13 @@ Ein Push auf `website-draft` aktualisiert die öffentliche Website über GitHub 
 
 
 Die Erweiterung um Team und Privat wurde im Browser mit vier Tabs, Pfeiltasten/Pos1/Ende, Direktlinks, Szenariowechsel, Namensmaskierung und Zwischenablage geprüft. Die vorhandene Outlook-Markierungsdemo und der eingebettete Bewerbungscoach wurden ebenfalls geprüft. Mobilansichten: 375 und 320 Pixel ohne horizontalen Überlauf.
+
+## Veröffentlichungsgrenze
+
+Dieses Repository veröffentlicht die Landingpage, Browserdemos und fiktive Beispieldateien. Der private Anwendungscode wird in seinen getrennten Projektordnern gepflegt und gehört nicht in dieses Repository.
+
+Keine privaten App-Quelldateien, Installationspakete, Konfigurationen mit Zugangsdaten, API-Schlüssel oder echten Kundendaten hinzufügen. Die Ignore-Regeln helfen bei versehentlich kopierten Dateien; sie ersetzen keine Prüfung der zur Veröffentlichung vorgesehenen Änderungen.
+
+HTML, CSS und JavaScript der öffentlich ausgelieferten Browserdemos sind für Besucher einsehbar. `tools/render_demo.py` ist ausschließlich der öffentliche Entwicklungshelfer für die fiktiven Demo-Videos, kein privater Anwendungsreader.
+
+Vor jedem Commit die ausgewählten Dateien und den Diff prüfen. Nur ausdrücklich benannte Website-Dateien mit `git add -- ...` aufnehmen.

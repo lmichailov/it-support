@@ -3,3 +3,25 @@
 __pycache__/
 *.py[cod]
 .venv/
+
+# Private application files stay outside the public website
+*.py
+!tools/render_demo.py
+*.exe
+*.msi
+*.whl
+*.zip
+*.7z
+*.pem
+*.key
+*.pfx
+*.p12
+*.sqlite*
+*.db
+credentials.*
+secrets.*
+build/
+dist/
+private/
+internal/
+AGENTS.md
